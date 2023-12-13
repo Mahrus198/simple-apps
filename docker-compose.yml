@@ -1,6 +1,6 @@
 services:
   apps:
-    build: Apps/. /Apps
+    build: . /Apps
     ports:
       - "10000:3000"
     restart: always
