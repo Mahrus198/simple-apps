@@ -2,10 +2,10 @@
 FROM node:18.16.0
 
 #directory utama
-WORKDIR /App
+WORKDIR /Apps
 
 #copy file dari directory apps ke workdir container /apps
-ADD Apps/./Apps
+ADD Apps/. /Apps
 
 #build image + module
 RUN npm install
